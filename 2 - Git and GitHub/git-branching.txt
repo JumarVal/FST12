@@ -7,3 +7,9 @@ git branch "branch name"
 # Switch to another branch 
 git switch "branch name" # May not work for older versions
 git checkout "branch name"
+
+# Merge branches
+git merge "branch name"
+
+# Delete branches
+git branch -d "branch name"
