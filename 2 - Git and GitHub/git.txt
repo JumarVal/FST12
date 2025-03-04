@@ -10,3 +10,11 @@ git config --global user.email "email"
 git config user.name 
 git config user.email
 
+# Check the status
+git status
+
+# Adding file to staging area
+git add "file/folder name"
+
+# Add files to staging area
+git add .
