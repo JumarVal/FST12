@@ -33,3 +33,18 @@ git log
 
 # Check Commit Hisotry Summarize
 git log --oneline
+
+# Confirm connection to remote repository
+git push -v
+
+# Add a remote to a local repository
+git remote add origin "repository-url"
+
+# Set the branch to main
+git branch -M main
+
+# Push commits to remote repository (initial push)
+git push -u origin main
+
+# Push commit to remote repository
+git push
