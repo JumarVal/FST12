@@ -1,0 +1,26 @@
+GUI - Graphical User Interface - Icons/Buttons/Menus
+CLI - Command-Line Interface - Text-Based
+
+# Make Directory Command
+mkdir "directory name"
+
+# Remove Directory Command
+rmdir "directory name"
+
+# Change Directory Command
+cd "directory name"
+
+# Make a file
+touch "fila name"
+
+# Remove File Command
+rm "file name"
+
+# Present Working Directory Command
+pwd
+
+# List Command
+ls
+
+# Go back one directory
+cd ..

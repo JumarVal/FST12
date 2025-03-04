@@ -1,0 +1,12 @@
+# GIT Version
+git --version
+
+# Initialize a repository
+git init
+
+# Configure git
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name 
+git config user.email
+
