@@ -18,3 +18,18 @@ git add "file/folder name"
 
 # Add files to staging area
 git add .
+
+# Commit files
+git commit -m "description of your commit"
+
+# Legends for Git
+U - Untracked
+A - Added
+M - Modified
+D - Deleted
+
+# Check commit history
+git log
+
+# Check Commit Hisotry Summarize
+git log --oneline
