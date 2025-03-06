@@ -1,0 +1,64 @@
+/* Padding */
+.box1{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+/* Padding Shorthand */
+/* 1 value - all sides */
+/* 2 values - top bottom / left right */
+/* 3 values - top / left right / bottom */
+/* 4 values - top / right / bottom / left */
+.box2{
+    padding: 10px;
+    padding: 10px 20px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px 30px 40px;
+}
+
+/* Margin */
+.box3{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+/* Margin Shorthand */
+/* 1 value - all sides */
+/* 2 values - top bottom / left right */
+/* 3 values - top / left right / bottom */
+/* 4 values - top / right / bottom / left */
+.box4{
+    margin: 10px;
+    margin: 10px 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px;
+}
+
+/* Border */
+/* 1 value - all sides */
+/* 2 values - top bottom / left right */
+/* 3 values - top / left right / bottom */
+/* 4 values - top / right / bottom / left */
+.mix-borders{
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    /* solid dashed dotted double */
+    border-width: 2px 4px 6px 8px;
+    border-color: black red blue yellow;
+
+    /* short hand */
+    border: black double 10px;
+}
+
+/* Circle Container */
+.circle-container{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 10%;
+}
