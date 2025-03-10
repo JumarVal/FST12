@@ -1,0 +1,36 @@
+#relative{
+    color: white;
+    background-color: red;
+    position: relative;
+    /* Access: top. left, bottom, right */
+    top: 10px;
+    left: 20px; 
+}
+
+#absolute{
+    color:white;
+    background-color: purple;
+    position: absolute;
+    /* Access: top, left, bottom, right */
+    top:0px;
+    left:20px;
+
+}
+
+#fixed {
+    color: white;
+    background-color: pink;
+    position: fixed;
+/* Access: top, left, bottom, right */
+bottom: 5px;
+right: 10px;
+}
+
+#sticky{
+    color: white;
+    background-color: blue;
+    position: sticky;
+    /* Access: top, left, bottom, right */
+    top: 20px;
+}
+
